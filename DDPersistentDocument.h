@@ -1,5 +1,5 @@
 //
-//  DDDocument.h
+//  DDPersistentDocument.h
 //
 //  Created by Warren Burton on 06/05/2013.
 //  WTFPL Licensed
@@ -7,11 +7,12 @@
 // Use at your own risk. Modify and redistribute freely
 //
 
+
+
 #import <Cocoa/Cocoa.h>
 
-@interface DDPersistentDocument : NSDocument
+@interface DDPersistentDocument : NSPersistentDocument
 
-@property (readonly) NSManagedObjectContext *managedObjectContext;
 
 
 @end
